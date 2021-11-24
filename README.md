@@ -8,9 +8,10 @@
 
 ## Getting Started
 
-To run the test by `npm test`
-run `npm run build` before running the application
-To run the application by `npm start`
+- To run the test by `npm test`
+- run `npm run build` before running the application
+- To run the application by `npm start`
+- Sample commond `npm start XXXOO____` then get `CROSSES_WIN`
 
 ## Available Scripts
 
