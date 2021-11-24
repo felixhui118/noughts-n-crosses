@@ -5,6 +5,7 @@
 - Crosses always goes first
 - Players must make a move during their turn in one of the empty slots
 - The game ends as soon as either player gets 3 in a row, or there are no empty slots left
+- The character ”X” is used for Crosses, ”O” (letter O) for Noughts, and ”\_” for empty slots
 
 ## Getting Started
 
