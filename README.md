@@ -9,6 +9,7 @@
 
 ## Getting Started
 
+- Run `npm install` to install the package
 - To run the test by `npm test`
 - run `npm run build` before running the application
 - To run the application by `npm start`
