@@ -22,11 +22,12 @@ export const chunk = (arr: string[], size: number): string[][] =>
     [],
   );
 
+// check win Pattern
 export const isWin = (boradArr: string[], target: gameCharacter): boolean => {
   return boradArr.every((value) => value === target);
 };
 
-// get result Set from board state
+// get Patterns from board state
 export const getPatterns = (boardArr: string[][]): string[][] => {
   const patterns = [];
   const firstDiagonallySet = [];
@@ -63,7 +64,7 @@ export const calcWinner = (board: string): string => {
   let countCrossesWin = 0;
   let countNoughtsWin = 0;
 
-  // get all resultSet horizontally, vertically and Diagonally from the board
+  // get all patterns horizontally, vertically and Diagonally from the board
   const patterns = getPatterns(boardArr);
 
   // loop through the patterns to check each Set of value to be win or not

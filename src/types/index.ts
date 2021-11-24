@@ -9,4 +9,5 @@ export interface BoardState {
   INVALID_BOARD: string;
 }
 
+// define the gameCharacter type
 export type gameCharacter = 'X' | 'O';
