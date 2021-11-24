@@ -1,6 +1,6 @@
 # Noughts and Crosses
 
-## Getting Started
+## Game Rules
 
 - Crosses always goes first
 - Players must make a move during their turn in one of the empty slots
@@ -9,7 +9,7 @@
 ## Getting Started
 
 To run the test by `npm test`
-run `npm build` before running the application
+run `npm run build` before running the application
 To run the application by `npm start`
 
 ## Available Scripts
